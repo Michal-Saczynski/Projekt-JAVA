@@ -1,0 +1,61 @@
+/* MichtechApp.css */
+
+.menu {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    display: inline-block;
+    margin-right: 20px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .menu li:hover {
+    text-decoration: underline;
+  }
+
+
+/* ... (poprzednie style) */
+
+#two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.spotlight {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.image {
+  flex: 1;
+  max-width: 400px;
+  margin-right: 20px;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px; /* Zaokrąglone rogi obrazków */
+}
+
+.content {
+  flex: 2;
+  max-width: 600px;
+}
+
+  
+  /* Dodaj więcej stylów według potrzeb */
+  
