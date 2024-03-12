@@ -24,6 +24,7 @@ public class Produkty {
         private long ID_produktu;
         private String nazwa;
         private double cena;
+        private String plik;
 
         @ManyToMany(fetch = FetchType.LAZY,
                 cascade = {

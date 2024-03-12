@@ -10,7 +10,7 @@ import java.util.List;
 @Service
 @AllArgsConstructor
 public class ProduktyService {
-    private static final int PAGE_SIZE = 3;
+    private static final int PAGE_SIZE = 6;
     private final ProduktyRepository produktyRepository;
 
     public List<Produkty> getProdukty(int page) {
